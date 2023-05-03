@@ -1,18 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 14:08:08 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/03 14:08:09 by gcoqueir         ###   ########.fr       */
+/*   Created: 2023/05/03 14:06:31 by gcoqueir          #+#    #+#             */
+/*   Updated: 2023/05/03 18:06:36 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c)
+#include "libft.h"
+
+int	ft_lstsize(t_list *lst)
 {
-	if (c >= 'A' && c <= 'Z')
-		c += 32;
-	return (c);
+	int		count;
+	t_list	*temp;
+
+	if (lst == NULL)
+		return (0);
+	count = 0;
+	temp = lst;
+	while (temp != NULL)
+	{
+		count++;
+		temp = temp->next;
+	}
+	return (count);
 }
