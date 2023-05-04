@@ -6,7 +6,7 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:07:43 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/03 14:07:44 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/04 12:12:09 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	size_t	count;
 	size_t	src_len;
 
-	src_len = (size_t)ft_strlen(src);
+	src_len = ft_strlen(src);
 	count = 0;
 	if (size > 0)
 	{

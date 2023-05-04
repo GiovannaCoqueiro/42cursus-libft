@@ -6,7 +6,7 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:07:40 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/03 14:07:41 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/04 12:12:02 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	size_t	src_len;
 	size_t	dest_len;
 
-	src_len = (size_t)ft_strlen(src);
-	dest_len = (size_t)ft_strlen(dest);
+	src_len = ft_strlen(src);
+	dest_len = ft_strlen(dest);
 	src_count = 0;
 	dest_count = dest_len;
 	if (size > dest_len)
