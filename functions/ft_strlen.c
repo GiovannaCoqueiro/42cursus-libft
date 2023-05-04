@@ -6,13 +6,13 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 14:07:46 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/03 14:07:47 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/04 09:47:10 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	count;
+	size_t	count;
 
 	count = 0;
 	while (str[count] != '\0')

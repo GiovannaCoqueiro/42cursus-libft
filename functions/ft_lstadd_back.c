@@ -6,7 +6,7 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 17:58:15 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/03 17:58:16 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/04 08:51:48 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		*lst = new;
 		return ;
 	}
-	temp = *lst;
-	while (temp != NULL)
-		temp = temp->next;
+	temp = ft_lstlast(*lst);
 	temp->next = new;
 }
