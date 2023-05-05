@@ -14,6 +14,7 @@ int main(void)
 	printf("Result  : %s\nExpected: %s\n", ft_strchr(str, '\0'), strchr(str, '\0'));
 	printf("Result  : %s\nExpected: %s\n", ft_strchr(str, 'o' + 100), strchr(str, 'o' + 100));
 	printf("Result  : %s\nExpected: %s\n", ft_strchr(str1, 'h'), strchr(str1, 'h'));
+	printf("Result  : %s\nExpected: %s\n", ft_strchr(str1, -65), strchr(str1, -65));
 }
 
 char	*ft_strchr(const char *s, int c)

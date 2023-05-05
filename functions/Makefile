@@ -6,7 +6,7 @@
 #    By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/04 15:07:53 by gcoqueir          #+#    #+#              #
-#    Updated: 2023/05/04 15:07:54 by gcoqueir         ###   ########.fr        #
+#    Updated: 2023/05/05 08:50:01 by gcoqueir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,4 +46,6 @@ fclean:	clean
 
 re: fclean all
 
-.PHONY:	all clean fclean re bonus
+rebonus: fclean bonus
+
+.PHONY:	all clean fclean re bonus rebonus

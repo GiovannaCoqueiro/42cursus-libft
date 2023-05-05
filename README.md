@@ -28,7 +28,7 @@ Re-code some of the Standard C Library. The functions must behavior as the origi
 | [memcmp](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_memcmp.c) | Compare two blocks of memory |
 | [strnstr](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_strnstr.c) | Search for a substring in a string |
 | [atoi](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_atoi.c) | Convert a string to an integer |
-| [calloc](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_calloc.c) | Allocate memory and fill its bytes to zero (working correctly, but the test file still needs to be fixed) |
+| [calloc](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_calloc.c) | Allocate memory and fill its bytes to zero |
 | [strdup](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_strdup.c) | Duplicate a string |
 
 #### Part 02
