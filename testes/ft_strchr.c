@@ -30,6 +30,6 @@ char	*ft_strchr(const char *s, int c)
 		if (s[count] == character)
 			return (&str[count]);
 	if (character == '\0')
-		return (&str[strlen(str)]);
+		return (&str[count]);
 	return (0);
 }
