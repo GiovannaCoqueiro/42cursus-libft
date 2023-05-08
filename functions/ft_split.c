@@ -6,7 +6,7 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 09:21:52 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/08 09:21:53 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/08 11:49:57 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ static char	**ft_sep_words(char **strs, int size, char *s, char c)
 		while (s[temp] != c && s[temp] != '\0')
 			temp++;
 		strs[c_word] = malloc((temp - count + 1) * sizeof(char));
-		ft_memcpy((void *)strs[c_word], (const void *)&s[count], temp);
+		ft_memcpy((void *)strs[c_word], (const void *)&s[count], temp - count);
 		strs[c_word][temp - count] = '\0';
 		count = temp;
 		c_word++;
