@@ -6,11 +6,11 @@
 #    By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/04 15:07:53 by gcoqueir          #+#    #+#              #
-#    Updated: 2023/05/05 08:50:01 by gcoqueir         ###   ########.fr        #
+#    Updated: 2023/05/09 14:19:19 by gcoqueir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 FILES = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 			ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c ft_memmove.c \
@@ -19,30 +19,29 @@ FILES = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 			ft_atoi.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c \
 			ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c \
 			ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
-OBJS = ${FILES:.c=.o}
+OBJS = $(FILES:.c=.o)
 BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 			ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
 			ft_lstmap.c ft_lstclear.c
-BONUS_OBJS = ${BONUS:.c=.o}
-LIB = libft.h
+BONUS_OBJS = $(BONUS:.c=.o)
 NAME = libft.a
 
-all:	${NAME}
+all:	$(NAME)
 
-.c.o:
-	${CC} ${CFLAGS} -I ${LIB} -c $< -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) -I . -c $< -o $@
 
-${NAME}:	${OBJS}
-	ar rc ${NAME} ${OBJS}
+$(NAME):	$(OBJS)
+	ar rcs $(NAME) $(OBJS)
 
-bonus:	${NAME} ${BONUS_OBJS}
-	ar rc ${NAME} ${BONUS_OBJS}
+bonus:	$(BONUS_OBJS)
+	ar rcs $(NAME) $(BONUS_OBJS)
 
 clean:
-	rm -f ${OBJS} ${BONUS_OBJS}
+	rm -f $(OBJS) $(BONUS_OBJS)
 
 fclean:	clean
-	rm -f ${NAME}
+	rm -f $(NAME)
 
 re: fclean all
 
