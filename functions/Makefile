@@ -6,7 +6,7 @@
 #    By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/04 15:07:53 by gcoqueir          #+#    #+#              #
-#    Updated: 2023/05/09 14:59:44 by gcoqueir         ###   ########.fr        #
+#    Updated: 2023/05/10 13:20:57 by gcoqueir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ NAME = libft.a
 all:	$(NAME)
 
 %.o: %.c
-	$(CC) $(CFLAGS) -I . -c $< -o $@
+	$(CC) $(CFLAGS) -I. -c $< -o $@
 
 $(NAME):	$(OBJS)
 	ar rcs $(NAME) $(OBJS)

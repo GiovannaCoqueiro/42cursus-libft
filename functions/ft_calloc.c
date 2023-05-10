@@ -6,7 +6,7 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 09:17:41 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/05 09:17:42 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/10 13:11:48 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	size_t	len;
 
 	len = nmemb * size;
-	if (nmemb != len / size)
+	if (len == 0 || nmemb > 2147483627 / size)
 		return (NULL);
 	arr = malloc(len);
 	if (arr == NULL)
