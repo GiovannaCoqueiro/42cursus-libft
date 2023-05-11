@@ -6,9 +6,11 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 09:19:23 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/05 09:19:24 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/08 12:01:34 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

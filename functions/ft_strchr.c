@@ -6,9 +6,11 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 09:18:44 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/05 09:18:45 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/08 12:01:10 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

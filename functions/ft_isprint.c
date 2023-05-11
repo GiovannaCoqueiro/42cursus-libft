@@ -6,9 +6,11 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 09:17:56 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/05 09:17:57 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/08 12:00:43 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {
