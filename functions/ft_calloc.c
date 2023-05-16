@@ -6,7 +6,7 @@
 /*   By: gcoqueir <gcoqueir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 09:17:41 by gcoqueir          #+#    #+#             */
-/*   Updated: 2023/05/16 12:29:09 by gcoqueir         ###   ########.fr       */
+/*   Updated: 2023/05/16 14:27:02 by gcoqueir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	arr = malloc(nmemb * size);
 	if (arr == NULL)
 		return (NULL);
-	ft_bzero(arr, nmemb * size);
+	ft_memset(arr, 0, nmemb * size);
 	return (arr);
 }
