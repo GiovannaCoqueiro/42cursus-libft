@@ -89,7 +89,7 @@
 | [lstnew](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstnew.c) | Create a new node |
 | [lstadd_front](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstadd_front.c) | Add a node in front of a list |
 | [lstsize](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstsize.c) | Count the nodes in a list |
-| [lstlast](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstlast.c) | Return the last noe of a list |
+| [lstlast](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstlast.c) | Return the last node of a list |
 | [lstadd_back](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstadd_back.c) | Add a node in the end of a list |
 | [lstdelone](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstdelone.c) | Free the content os a node in a list |
 | [lstclear](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstclear.c) | Delete and free a list |
