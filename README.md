@@ -11,18 +11,22 @@
     		Inside this repository, you can see all the code that has been created for the libft project, including the mandatory parts 1 and 2 as well as the bonus functions. These functions must be compiled into a library named libft.a using a Makefile.
 	</p>
 </div>
+
 ---
+
 <div align=center>
 	<h2>
 		Final score
 	</h2>
 	<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/5e0ec418-05ec-4dae-9924-f8ae828cae22 alt=libft grade/>
 </div>
+
 ---
-<h3 align=center>
+
+<h3 align=left>
     Part 1
 </h3>
-<p align=center>
+<p>
     Re-code some of the Standard C Library. The functions must behavior as the originals.
 </p>
 
@@ -52,11 +56,10 @@
 | [calloc](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_calloc.c) | Allocate memory and fill its bytes to zero |
 | [strdup](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_strdup.c) | Duplicate a string |
 
-<h3 align=center>
+<h3 align=left>
     Part 2
 </h3>
-
-<p align=center>
+<p>
     Code some helpful functions that are not in the Standard C Library.
 </p>
 
@@ -74,11 +77,10 @@
 | [putendl_fd](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_putendl_fd.c) | Write a string to a file, followed by a new line |
 | [putnbr_fd](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_putnbr_fd.c) | Write a number to a file |
 
-<h3 align=center>
+<h3 align=left>
     Bonus
 </h3>
-
-<p align=center>
+<p>
     Code some functions to manipulate lists.
 </p>
 
@@ -95,6 +97,7 @@
 | [lstmap](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstmap.c) | Apply a function to every node of a list |
 
 ---
+
 <h2>
     Instructions to use
 </h2>
