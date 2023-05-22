@@ -2,29 +2,26 @@
 	<b>42cursus</b>
 </h1>
 
-<h2 align=center>
-	<i>libft</i>
-</h2>
-<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
-
-<p align=center>
-    Inside this repository, you can see all the code that has been created for the libft project, including the mandatory parts 1 and 2 as well as the bonus functions. These functions must be compiled into a library named libft.a using a Makefile.
-</p>
-
+<div align=center>
+	<h2>
+		<i>libft</i>
+	</h2>
+	<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
+	<p align=center>
+    		Inside this repository, you can see all the code that has been created for the libft project, including the mandatory parts 1 and 2 as well as the bonus functions. These functions must be compiled into a library named libft.a using a Makefile.
+	</p>
+</div>
 ---
 <div align=center>
-<h2>
-	Final score
-</h2>
-<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/5e0ec418-05ec-4dae-9924-f8ae828cae22 alt=libft grade/>
+	<h2>
+		Final score
+	</h2>
+	<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/5e0ec418-05ec-4dae-9924-f8ae828cae22 alt=libft grade/>
 </div>
-
 ---
-
 <h3 align=center>
     Part 1
 </h3>
-
 <p align=center>
     Re-code some of the Standard C Library. The functions must behavior as the originals.
 </p>
