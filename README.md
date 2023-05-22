@@ -3,11 +3,9 @@
 </h1>
 
 <h2 align=center>
-	 <i>libft</i>
-	<p align=center>
-		<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
-	</p>
+	<i>libft</i>
 </h2>
+<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
 
 <p align=center>
     Inside this repository, you can see all the code that has been created for the libft project, including the mandatory parts 1 and 2 as well as the bonus functions. These functions must be compiled into a library named libft.a using a Makefile.
