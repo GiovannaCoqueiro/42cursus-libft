@@ -4,6 +4,7 @@
 
 <h2 align=center>
 	 <i>libft</i>
+<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
 </h2>
 
 <p align=center>
@@ -15,8 +16,7 @@
 <h2>
 	Final score
 </h2>
-<img src= alt=/>
-<img src= alt=/>
+<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/5e0ec418-05ec-4dae-9924-f8ae828cae22 alt=libft grade/>
 </div>
 
 ---
