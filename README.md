@@ -1,10 +1,34 @@
-# 42cursus
+<h1 align=center>
+	<b>42cursus</b>
+</h1>
+
+<h2 align=center>
+	 <i>libft</i>
+</h2>
+
+<p align=center>
+    Inside this repository, you can see all the code that has been created for the libft project, including the mandatory parts 1 and 2 as well as the bonus functions. These functions must be compiled into a library named libft.a using a Makefile.
+</p>
+
 ---
-## libft
-###### Inside this repository, you can see all the code that has been created for the libft project, including the mandatory parts 1 and 2 as well as the bonus functions. These functions must be compiled into a library named libft.a using a Makefile.
+<div align=center>
+<h2>
+	Final score
+</h2>
+<img src= alt=/>
+<img src= alt=/>
+</div>
+
 ---
-#### Part 01
-Re-code some of the Standard C Library. The functions must behavior as the originals.
+
+<h3 align=center>
+    Part 1
+</h3>
+
+<p align=center>
+    Re-code some of the Standard C Library. The functions must behavior as the originals.
+</p>
+
 | Function | Description |
 | :--- | :--- |
 | [isalpha](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_isalpha.c) | Check if it's an alphabetic character |
@@ -31,8 +55,14 @@ Re-code some of the Standard C Library. The functions must behavior as the origi
 | [calloc](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_calloc.c) | Allocate memory and fill its bytes to zero |
 | [strdup](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_strdup.c) | Duplicate a string |
 
-#### Part 02
-Code some helpful functions that are not in the Standard C Library.
+<h3 align=center>
+    Part 2
+</h3>
+
+<p align=center>
+    Code some helpful functions that are not in the Standard C Library.
+</p>
+
 | Function | Description |
 | :--- | :--- |
 | [substr](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_substr.c) | Return a substring from a string |
@@ -47,8 +77,14 @@ Code some helpful functions that are not in the Standard C Library.
 | [putendl_fd](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_putendl_fd.c) | Write a string to a file, followed by a new line |
 | [putnbr_fd](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_putnbr_fd.c) | Write a number to a file |
 
-#### Bonus
-Code some functions to manipulate lists.
+<h3 align=center>
+    Bonus
+</h3>
+
+<p align=center>
+    Code some functions to manipulate lists.
+</p>
+
 | Function | Description |
 | :--- | :--- |
 | [lstnew](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstnew.c) | Create a new node |
@@ -60,18 +96,21 @@ Code some functions to manipulate lists.
 | [lstclear](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstclear.c) | Delete and free a list |
 | [lstiter](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstiter.c) | Apply a function to every node of a list |
 | [lstmap](https://github.com/GiovannaCoqueiro/42cursus-libft/blob/main/functions/ft_lstmap.c) | Apply a function to every node of a list |
+
 ---
-## Instructions to use
+<h2>
+    Instructions to use
+</h2>
 Clone this repository in you local computer using a terminal:
 - $> git clone https://github.com/GiovannaCoqueiro/42cursus-libft.git [libft_path]
 
 After succefully cloning the lib in your local reposiory you run some comands you can find in Makefile:
-- $> make all: or just 'make' compiles only the mandaory parts
-- $> make bonus: compiles the bonus part
-- $> make clean: deletes the object files created during cmpilation
-- $> make fclean: executes the 'clean' comand and also deletes the libft.a
-- $> make re: executes the 'fclean' comand followed by the 'all' comand
-- $> make rebonus: executes the 'fclean' comand followed by the 'bonus' comand
+- $> <b>make all:</b> or just <b>make</b> compiles only the mandaory parts
+- $> <b>make bonus:</b> compiles the bonus part
+- $> <b>make clean:</b> deletes the object files created during cmpilation
+- $> <b>make fclean:</b> executes the <b>clean</b> comand and also deletes the libft.a
+- $> <b>make re:</b> executes the <b>fclean</b> comand followed by the <b>all</b> comand
+- $> <b>make rebonus:</b> executes the <b>fclean</b> comand followed by the <b>bonus</b> comand
 
 To use libft in your projects you need to include its header:
 - #include "libft.h"
