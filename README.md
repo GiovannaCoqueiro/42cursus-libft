@@ -4,7 +4,9 @@
 
 <h2 align=center>
 	 <i>libft</i>
-<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
+	<p align=center>
+		<img src=https://github.com/GiovannaCoqueiro/42cursus-libft/assets/115947494/c1d49b6e-ee30-4481-ae71-f07631dd7f13 alt=libft badge/>
+	</p>
 </h2>
 
 <p align=center>
