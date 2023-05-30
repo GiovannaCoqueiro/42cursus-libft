@@ -102,19 +102,25 @@
     Instructions to use
 </h2>
 Clone this repository in you local computer using a terminal:
-
-- $> git clone https://github.com/GiovannaCoqueiro/42cursus-libft.git [libft_path]
-
-After succefully cloning the lib in your local reposiory you run some commands you can find in Makefile:
-- $> <b>make all:</b> or just <b>make</b> compiles only the mandatory parts
-- $> <b>make bonus:</b> compiles the bonus part
-- $> <b>make clean:</b> deletes the object files created during cmpilation
-- $> <b>make fclean:</b> executes the <b>clean</b> command and also deletes the libft.a
-- $> <b>make re:</b> executes the <b>fclean</b> command followed by the <b>all</b> command
-- $> <b>make rebonus:</b> executes the <b>fclean</b> command followed by the <b>bonus</b> command
-
+<ul>
+	<li>$> git clone https://github.com/GiovannaCoqueiro/42cursus-libft.git [libft_path]</li>
+</ul>
+		
+After cloning the lib in your local reposiory you run some commands you can find in Makefile:
+<ul>
+	<li>$> <b>make all:</b> or just <b>make</b> compiles only the mandatory parts</li>
+	<li>$> <b>make bonus:</b> compiles the bonus part</li>
+	<li>$> <b>make clean:</b> deletes the object files created during compilation</li>
+	<li>$> <b>make fclean:</b> executes the <b>clean</b> command and also deletes the libft.a</li>
+	<li>$> <b>make re:</b> executes the <b>fclean</b> command followed by the <b>all</b> command</li>
+	<li>$> <b>make rebonus:</b> executes the <b>fclean</b> command followed by the <b>bonus</b> command</li>
+</ul>
 To use libft in your projects you need to include its header:
-- #include "libft.h"
+<ul>
+	<li>#include "libft.h"</li>
+</ul>
 
 To compile your projects that use libft you need to use the flags:
-- $> ... -L [path/to/libft.a] -I [path/to/libft.h]
+<ul>
+	<li>$> ... -L [path/to/libft.a] -I [path/to/libft.h]</li>
+</ul>
