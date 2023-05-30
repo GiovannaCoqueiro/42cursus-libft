@@ -102,15 +102,16 @@
     Instructions to use
 </h2>
 Clone this repository in you local computer using a terminal:
+
 - $> git clone https://github.com/GiovannaCoqueiro/42cursus-libft.git [libft_path]
 
-After succefully cloning the lib in your local reposiory you run some comands you can find in Makefile:
-- $> <b>make all:</b> or just <b>make</b> compiles only the mandaory parts
+After succefully cloning the lib in your local reposiory you run some commands you can find in Makefile:
+- $> <b>make all:</b> or just <b>make</b> compiles only the mandatory parts
 - $> <b>make bonus:</b> compiles the bonus part
 - $> <b>make clean:</b> deletes the object files created during cmpilation
-- $> <b>make fclean:</b> executes the <b>clean</b> comand and also deletes the libft.a
-- $> <b>make re:</b> executes the <b>fclean</b> comand followed by the <b>all</b> comand
-- $> <b>make rebonus:</b> executes the <b>fclean</b> comand followed by the <b>bonus</b> comand
+- $> <b>make fclean:</b> executes the <b>clean</b> command and also deletes the libft.a
+- $> <b>make re:</b> executes the <b>fclean</b> command followed by the <b>all</b> command
+- $> <b>make rebonus:</b> executes the <b>fclean</b> command followed by the <b>bonus</b> command
 
 To use libft in your projects you need to include its header:
 - #include "libft.h"
