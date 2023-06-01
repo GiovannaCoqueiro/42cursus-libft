@@ -122,5 +122,5 @@ To use libft in your projects you need to include its header:
 
 To compile your projects that use libft you need to use the flags:
 <ul>
-	<li>$> ... -L [path/to/libft.a] -I [path/to/libft.h]</li>
+	<li>$> ... -lft -L [path/to/libft.a] -I [path/to/libft.h]</li>
 </ul>
